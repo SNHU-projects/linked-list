@@ -28,10 +28,19 @@ void ContactNode::InsertAfter(ContactNode* nodeLoc) {
 // Print dataVal
 void ContactNode::PrintContactNode() {
     cout << "Name: " << this->contactName << endl;
-    cout << "Phone number: " << this->contactPhoneNum<< endl;
+    cout << "Phone number: " << this->contactPhoneNum << endl << endl;
 }
 
 // Grab location pointed by nextNodePtr
 ContactNode* ContactNode::GetNext() {
     return this->nextNodePtr;
 }
+
+string ContactNode::GetName() {
+    return this->contactName;
+}
+
+string ContactNode::GetPhoneNumber() {
+    return this->contactPhoneNum;
+}
+

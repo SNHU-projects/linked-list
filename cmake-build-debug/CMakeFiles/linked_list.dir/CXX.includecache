@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/jef.dewitt/CLionProjects/linked-list/ContactNode.cpp
+iostream
+-
+ContactNode.h
+/Users/jef.dewitt/CLionProjects/linked-list/ContactNode.h
+
 /Users/jef.dewitt/CLionProjects/linked-list/ContactNode.h
 
 /Users/jef.dewitt/CLionProjects/linked-list/main.cpp

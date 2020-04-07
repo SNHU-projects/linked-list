@@ -11,8 +11,8 @@ class ContactNode {
 public:
     ContactNode(string name, string phoneNum);
     void InsertAfter(ContactNode* nodeLoc);
-    void GetName();
-    void GetPhoneNumber();
+    string GetName();
+    string GetPhoneNumber();
     ContactNode* GetNext();
     void PrintContactNode();
 private:

@@ -10,11 +10,11 @@ vector<string> promptUser() {
     string name;
     string number;
 
-    cout << "Enter a contact name: " << endl;
-    cin >> name;
+    cout << "Enter name: " << endl;
+    getline(cin, name);
     userData.push_back(name);
-    cout << "Enter a contact phone number: " << endl;
-    cin >> number;
+    cout << "Enter phone number: " << endl;
+    getline(cin, number);
     userData.push_back(number);
 
     return userData;
