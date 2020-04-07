@@ -53,6 +53,7 @@ int main() {
     nodeObj1->InsertAfter(nodeObj2);
 
     // Print linked list
+    cout << "CONTACT LIST" << endl;
     currObj = headObj;
     while (currObj != nullptr) {
         currObj->PrintContactNode();
