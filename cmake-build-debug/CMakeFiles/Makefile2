@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /Users/jef.dewitt/CLionProjects/linked-list/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/linked_list.dir/all
+all: CMakeFiles/Lab3_2.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/linked_list.dir/clean
+clean: CMakeFiles/Lab3_2.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/linked_list.dir
+# Target rules for target CMakeFiles/Lab3_2.dir
 
 # All Build rule for target.
-CMakeFiles/linked_list.dir/all:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/depend
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jef.dewitt/CLionProjects/linked-list/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target linked_list"
-.PHONY : CMakeFiles/linked_list.dir/all
+CMakeFiles/Lab3_2.dir/all:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/depend
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jef.dewitt/CLionProjects/linked-list/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Lab3_2"
+.PHONY : CMakeFiles/Lab3_2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/linked_list.dir/rule: cmake_check_build_system
+CMakeFiles/Lab3_2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jef.dewitt/CLionProjects/linked-list/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linked_list.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab3_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jef.dewitt/CLionProjects/linked-list/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/linked_list.dir/rule
+.PHONY : CMakeFiles/Lab3_2.dir/rule
 
 # Convenience name for target.
-linked_list: CMakeFiles/linked_list.dir/rule
+Lab3_2: CMakeFiles/Lab3_2.dir/rule
 
-.PHONY : linked_list
+.PHONY : Lab3_2
 
 # clean rule for target.
-CMakeFiles/linked_list.dir/clean:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/clean
-.PHONY : CMakeFiles/linked_list.dir/clean
+CMakeFiles/Lab3_2.dir/clean:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/clean
+.PHONY : CMakeFiles/Lab3_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

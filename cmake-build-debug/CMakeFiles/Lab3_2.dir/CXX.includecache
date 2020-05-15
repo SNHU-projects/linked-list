@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jef.dewitt/CLionProjects/linked-list/CSVparser.cpp
+fstream
+-
+sstream
+-
+iomanip
+-
+CSVparser.hpp
+/Users/jef.dewitt/CLionProjects/linked-list/CSVparser.hpp
+
+/Users/jef.dewitt/CLionProjects/linked-list/CSVparser.hpp
+stdexcept
+-
+string
+-
+vector
+-
+list
+-
+sstream
+-
+
+/Users/jef.dewitt/CLionProjects/linked-list/LinkedList.cpp
+algorithm
+-
+iostream
+-
+time.h
+-
+CSVparser.hpp
+/Users/jef.dewitt/CLionProjects/linked-list/CSVparser.hpp
+

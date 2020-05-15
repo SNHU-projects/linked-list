@@ -111,71 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linked_list
+# Target rules for targets named Lab3_2
 
 # Build rule for target.
-linked_list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linked_list
-.PHONY : linked_list
+Lab3_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab3_2
+.PHONY : Lab3_2
 
 # fast build rule for target.
-linked_list/fast:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/build
-.PHONY : linked_list/fast
+Lab3_2/fast:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/build
+.PHONY : Lab3_2/fast
 
-ContactNode.o: ContactNode.cpp.o
+CSVparser.o: CSVparser.cpp.o
 
-.PHONY : ContactNode.o
-
-# target to build an object file
-ContactNode.cpp.o:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/ContactNode.cpp.o
-.PHONY : ContactNode.cpp.o
-
-ContactNode.i: ContactNode.cpp.i
-
-.PHONY : ContactNode.i
-
-# target to preprocess a source file
-ContactNode.cpp.i:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/ContactNode.cpp.i
-.PHONY : ContactNode.cpp.i
-
-ContactNode.s: ContactNode.cpp.s
-
-.PHONY : ContactNode.s
-
-# target to generate assembly for a file
-ContactNode.cpp.s:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/ContactNode.cpp.s
-.PHONY : ContactNode.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : CSVparser.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/main.cpp.o
-.PHONY : main.cpp.o
+CSVparser.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/CSVparser.cpp.o
+.PHONY : CSVparser.cpp.o
 
-main.i: main.cpp.i
+CSVparser.i: CSVparser.cpp.i
 
-.PHONY : main.i
+.PHONY : CSVparser.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/main.cpp.i
-.PHONY : main.cpp.i
+CSVparser.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/CSVparser.cpp.i
+.PHONY : CSVparser.cpp.i
 
-main.s: main.cpp.s
+CSVparser.s: CSVparser.cpp.s
 
-.PHONY : main.s
+.PHONY : CSVparser.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/main.cpp.s
-.PHONY : main.cpp.s
+CSVparser.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/CSVparser.cpp.s
+.PHONY : CSVparser.cpp.s
+
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3_2.dir/build.make CMakeFiles/Lab3_2.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... linked_list"
-	@echo "... ContactNode.o"
-	@echo "... ContactNode.i"
-	@echo "... ContactNode.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Lab3_2"
+	@echo "... CSVparser.o"
+	@echo "... CSVparser.i"
+	@echo "... CSVparser.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
 .PHONY : help
 
 
