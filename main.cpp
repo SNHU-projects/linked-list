@@ -24,7 +24,7 @@ int main() {
 
     vector<string> userData;
 
-    ContactNode* headObj  = nullptr; // Create intNode objects
+    ContactNode* headObj  = nullptr; // Create ContactNode objects
     ContactNode* nodeObj1 = nullptr;
     ContactNode* nodeObj2 = nullptr;
     ContactNode* currObj  = nullptr;
